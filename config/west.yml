@@ -9,8 +9,8 @@ manifest:
     #   remote: zmkfirmware
     #   revision: main
     #   import: app/west.yml
-    - name: petejohanson
-      remote: zmkfirmware
+    - name: zmk
+      remote: petejohanson
       revision: hardware/rp2040-support
       import: app/west.yml
   self:
